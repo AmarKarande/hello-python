@@ -1,5 +1,5 @@
 FROM python:3.9-slim
 WORKDIR /app
-copy app.py .
+copy hello.py .
 
-CMD ["python","app.py"]
+CMD ["python","hello.py"]
